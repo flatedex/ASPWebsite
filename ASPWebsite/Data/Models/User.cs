@@ -6,7 +6,6 @@
         public String Name { get; set; }
         public String Email { get; set; }
         public String Password { get; set; }
-
-        public User() { }
+        public List<File> Files { get; set; }
     }
 }
